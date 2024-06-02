@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        html{
+            font-family: sans-serif;
+            font-size: 10px;
+            background: palevioletred;
+        }
+        .posts{
+            max-width: 50rem;
+            margin: 2rem auto;
+        }
+        .post{
+            background: thistle;
+            margin: 2rem 0;
+            padding: 2rem;
+            font-size: 2rem;
+            text-align: center;
+            color: black;
+        }
+        /* .post:nth-child(2){
+           background: green;
+        } */
+        .post:nth-child(even){
+            background: green;
+        }
+    </style>
+</head>
+<body>
+  <div class="posts">
+      <article class="post">Article 1</article>
+      <article class="post">Article 2</article>
+      <article class="post">Article 3</article>
+      <article class="post">Article 4</article>
+      <article class="post">Article 5</article>
+      <article class="post">Article 6</article>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,8 @@
+Css Units(em,rem/vh,vw/pixels/percentage)
+em vs rem
+em - when I want to change parent size and child size accordingly.
+rem - when i want to keep the whole page size, relatively
+VH - Viewport Height.
+VW - Viewport Width.
+% - it will vary according to the screen size.
+pixel - will be same irrespective of where it is defined.

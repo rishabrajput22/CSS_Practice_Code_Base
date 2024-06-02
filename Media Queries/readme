@@ -1,0 +1,5 @@
+Media Query = Screen in and out, Print, max-width and min-width.
+0 - 300px = Iphone
+300px - 500px = tablet
+500px - 800px = Desktop Computer
+above 800 = widescreen computer

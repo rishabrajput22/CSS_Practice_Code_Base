@@ -1,0 +1,40 @@
+body{
+    background-color: #a7dbe3;
+    color: #4e476a;
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    width: 100px;
+    height: 70px;
+    float: left;
+    /* float: right; */
+}
+.box1{
+    background-color: pink;
+    /* float: left; */
+}
+.box2{
+    background-color: red;
+    /* float: left; */
+}
+.box3{
+    background-color: blue;
+    /* float: left; */
+}
+.box4{
+    background-color: black;
+    /* clear: both; */
+}
+.box5{
+    background-color: green;
+}
+.box6{
+    background-color: yellow;
+}
+.box7{
+    background-color: grey;
+}
+.box8{
+    background-color: aqua;
+}

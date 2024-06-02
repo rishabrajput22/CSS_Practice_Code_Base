@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Grids</title>
+  <style>
+    .wrapper{
+      display: grid;
+      grid-template-columns: 70% 30%;
+      /* grid-column-gap:1em;
+      grid-row-gap:1em; */
+      grid-gap:1em;
+  }
+  .wrapper > div{
+background: #eee;
+  }
+  .wrapper > div:nth-child(odd){
+    background: #ddd;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate modi corporis laboriosam placeat reprehenderit blanditiis repellat? Quos deserunt asperiores accusamus, corporis tenetur neque obcaecati sapiente culpa unde, aliquid autem numquam dolore ad dolor consequuntur dolorem vel. Voluptatem ex minima dolores nostrum. Atque corrupti a, quae dignissimos fuga quia vero rerum, magni commodi quasi, blanditiis tempora? Natus magni veniam dolore delectus beatae odio sed maiores a, excepturi corrupti eum unde est nam dolor quasi, aut non architecto eaque laboriosam harum. Fugit?z
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequuntur omnis mollitia fuga, sed vitae ut enim laboriosam, sint aliquam nesciunt debitis pariatur, saepe accusantium eos porro velit animi. Inventore.</div>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate modi corporis laboriosam placeat reprehenderit blanditiis repellat? Quos deserunt asperiores accusamus, corporis tenetur neque obcaecati sapiente culpa unde, aliquid autem numquam dolore ad dolor consequuntur dolorem vel. Voluptatem ex minima dolores nostrum. Atque corrupti a, quae dignissimos fuga quia vero rerum, magni commodi quasi, blanditiis tempora? Natus magni veniam dolore delectus beatae odio sed maiores a, excepturi corrupti eum unde est nam dolor quasi, aut non architecto eaque laboriosam harum. Fugit?z
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequuntur omnis mollitia fuga, sed vitae ut enim laboriosam, sint aliquam nesciunt debitis pariatur, saepe accusantium eos porro velit animi. Inventore.</div>
+    
+  </div>
+</body>
+</html>
+
+<!-- flexbox one dimensional and grid two dimensional -->

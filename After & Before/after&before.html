@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>After & Before</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 5rem;
+        }
+       /* p::before{
+           content:" hello";
+           background: red;
+           display: block;
+           width: 10px;
+           height: 10px;
+       }
+       p::after{
+           content:"bye";
+           background: red;
+           display: block;
+           width: 10px;
+           height: 10px;
+       } */
+       blockquote::before{
+           content: open-quote;
+           font-size: 2em;
+           /* color: #ddd; */
+       }
+       blockquote::after{
+           content: close-quote;
+           font-size: 2em;  
+           /* color: #ddd; */
+       }
+
+    </style>
+</head>
+<body>
+    <div class="after_before">
+        <!-- <p>Here is Some Content</p> -->
+        <blockquote>This is Block-Quote</blockquote>
+    </div>
+</body>
+</html>

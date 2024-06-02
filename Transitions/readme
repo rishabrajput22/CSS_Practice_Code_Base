@@ -1,0 +1,6 @@
+ease-in = slow at first and fast at last.
+ease-out = fast at first and slow at last.
+ease-in-out = slow start and end slow
+
+duration = how much time it will last.
+delay = after how much time it will start.

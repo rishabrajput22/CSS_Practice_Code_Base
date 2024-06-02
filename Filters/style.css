@@ -1,0 +1,12 @@
+#img{
+    height:550px;
+    width:900px;
+    /*   filter:blur(2px); px */
+  /*   filter:brightness(20); 0 - 100 0being dark and 100 full bright. */
+  /*   filter:contrast(50) 0 - 100 0being dark and 100 full bright. */
+  /*   filter:grayscale(1) */
+  /*   filter:invert(50); */
+  /*   filter:opacity(100); */
+  /*   filter:sepia(50%) */
+  /*   filter: drop-shadow(0px 20px 80px blue); */
+  }

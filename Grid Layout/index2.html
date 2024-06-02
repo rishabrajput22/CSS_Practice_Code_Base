@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Grids</title>
+  <style>
+    .wrapper{
+      display: grid;
+      /* fractions fr , 1% = 1fr; */
+      grid-template-columns: 1fr 1fr 1fr ; 
+      /* grid-template-columns: repeat(3, 1fr); */
+      grid-gap:1em;
+      grid-auto-rows:  minmax(100px,auto);
+    }
+.wrapper > div{
+background: #eee;
+  }
+  .wrapper > div:nth-child(odd){
+    background: #ddd;
+  }
+  .nested{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 70px;
+    grid-gap:1em;
+  }
+  .nested >div{
+    border: #333 1px solid;
+    padding: 1em;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>Lorem ipsum dolor sit amet.</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum consequuntur, itaque rem totam esse inventore ab, aliquid praesentium expedita blanditiis reiciendis fugiat earum qui, adipisci libero quia! Facere dignissimos eaque quibusdam consectetur earum pariatur, aut eveniet optio rerum vitae exercitationem, maiores ducimus dolorem ad itaque? Dolores, soluta libero laboriosam mollitia repudiandae fugit, dolor saepe corporis molestias maxime iste. Labore perspiciatis debitis eveniet, dolore placeat impedit quod explicabo cupiditate eum ex, tempora consequatur nemo necessitatibus quia cumque sapiente! Tenetur laborum fuga voluptatum ipsa velit iure delectus dignissimos dolores earum debitis dolore numquam porro nesciunt, odit ipsum dolorum atque nisi? Facilis.
+    </div>
+    <div class="nested">
+      <div>lorem </div>
+      <div>lorem </div>
+      <div>lorem </div>
+    </div>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <div>Lorem ipsum dolor sit amet.</div>
+  </div>
+</body>
+</html>
